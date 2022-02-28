@@ -1,0 +1,108 @@
+.Site-content{
+    .languages{
+        width: 100%;
+        min-height: 100px;
+        background-color: #159c4b;
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items:center;
+            padding: 15px;
+            li{
+                margin: 5px;
+                width: 300px;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    transition: .3s;
+                    display: flex;
+                    justify-content: left;
+                    line-height: 35px;
+                    :hover{
+                        color: tomato;
+                    }
+                    span{
+                        font-size: 18px;
+                    }
+                    span.abbr{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 35px;
+                        height: 35px;
+                        background-color: #fff;
+                        color: #159c4b;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                        :hover{
+                            color: tomato;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .news{
+        width: 100%;
+        background-color: #fff;
+        .nav-title{
+            margin: 45px 0;
+            ul{
+                list-style-type: none;
+                padding-top: 10px;
+                display: flex;
+                justify-content: center;
+                li{
+                    margin: 25px;
+                    border-bottom: 2px solid #159c4b;
+                    padding: 8px;
+                    transition: .3s;
+                    &:hover{
+                        background-color: #159c4b;
+                        border-radius: 10px;
+                        color: #fff;
+                        border-bottom: none;
+                        a{
+                            color: #fff;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        font-size: 20px;
+                        color: black;
+                        padding: 8px;
+                    }
+                }
+                li.active{
+                    background-color: #159c4b;
+                    border-radius: 10px;
+                    color: #fff;
+                    border-bottom: none;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .body-news{
+            display: flex;
+            border: 2px solid black;
+            .news-item{
+                .item{
+
+                }
+                .item-1{
+
+                }
+                .item-2{
+
+                }
+                .items{
+
+                }
+            }
+        }
+    }
+}
