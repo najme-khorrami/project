@@ -10,34 +10,37 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.rtl.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="../vendor/OwlCarousel/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="../vendor/OwlCarousel/dist/assets/owl.theme.default.min.css">
 </head>
 
 <body  class="Site">
 
     <header>
     <div class="container">
-        <div class="archaism-img">
-            <img src="../images/کانون-زبان-ایران.png" alt="">
-        </div>
-        <div class="d-flex flex-wrap top-nav">
-            <div>
-                <a href="#"><i class="fa-solid fa-lock-open"></i><span>ورود همکاران</span></a>
+        <div class="row">
+            <div class="archaism-img">
+                <img src="../images/کانون-زبان-ایران.png" alt="">
             </div>
-            <div>
-                <form action="" method="get">
-                    <input type="search" placeholder="    جستجو ...">
-                    <button><i class="fa-solid fa-magnifying-glass" style="color: #fff; background-color: #149146;"></i></button>
-                </form>
+            <div class="d-flex flex-wrap top-nav">
+                <div>
+                    <a href="#"><i class="fa-solid fa-lock-open"></i><span>ورود همکاران</span></a>
+                </div>
+                <div>
+                    <form action="" method="get">
+                        <input type="search" placeholder="    جستجو ...">
+                        <button><i class="fa-solid fa-magnifying-glass" style="color: #fff; background-color: #149146;"></i></button>
+                    </form>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-solid fa-phone"></i></i><span>021-91070008</span></a>
+                </div>
+                <div id="sign-1"><a href="#"><i class="fa-solid fa-earth-americas"></i><span>انتخاب زبان</span></a>
+                </div>
             </div>
-            <div>
-                <a href="#"><i class="fa-solid fa-phone"></i></i><span>021-91070008</span></a>
+            <div class="ili-img">
+                <img src="../images/3383_orig.png" alt="">
             </div>
-            <div id="sign-1"><a href="#"><i class="fa-solid fa-earth-americas"></i><span>انتخاب زبان</span></a>
-            </div>
-        </div>
-        <div class="ili-img">
-            <img src="../images/3383_orig.png" alt="">
         </div>
         <nav>
             <ul class="d-flex">
@@ -81,6 +84,7 @@
 </header>
 
       <main class="Site-content">
+      <!-- section-1 -->
         <section class="languages">
           <div class="container">
             <ul>
@@ -114,6 +118,7 @@
             </ul>
           </div>
         </section>
+        <!-- section-2 -->
         <section class="news">
           <div class="container">
             <div class="nav-title">
@@ -125,47 +130,145 @@
                 <li><a href="#">سایر اخبار</a></li>
               </ul>
             </div>
-            <div class="body-news">
-              
-              <div class="news-item col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                <div class="item item-1">
+            <div class="body-news row">
+              <div class="news-item col-lg-5 col-md-12">
+                <div class="item-1">
                   <img src="./images/وبینار-سراسری-مدیران-کانون-زبان-ایران-آغاز-شد.jpeg" alt="">
                 </div>
-                <div class="item item-2">
-                  <span>وبینار سراسری مدیران کانون زبان ایران آغاز شد</span>
+                <div class="item-2">
+                  <a href="#">وبینار سراسری مدیران کانون زبان ایران آغاز شد</a>
                 </div>
               </div>
-              <div class="news-item col-lg-7 col-md-7 col-sm-12 col-xs-12 ">
+              <div class="news-item col-lg-7 col-md-12">
                 <div class="items">
                   <div class="img-box">
-                    <img src="" alt="">
+                    <img src="./images/۵-و-۷-اسفندماه-امتحان-میان-ترم-غایبان-در-گروه-های-نوجوان-و-بزرگسال-زبان-های-غیرانگلیسی-برگزار-می-شود.jpeg" alt="">
                   </div>
                   <div class="text-box">
-                    <h2></h2>
-                    <p></p>
-                    <span></span>
+                    <a href="#">۵ و ۷ اسفندماه، امتحان میان ترم غایبان در گروه‌های نوجوان و بزرگسال زبان‌های غیرانگلیسی...</a>
+                    <p>امتحان میان ترم غایبان در گروه‌های نوجوان و بزرگسال زبان‌های غیرانگلیسی زمستان...</p>
+                    <span>۰۴ اسفند ۱۴۰۰</span>
                   </div>
                 </div>
+                <hr>
                 <div class="items">
                   <div class="img-box">
-                    <img src="" alt="">
+                    <img src="./images/سرپرست-کانون-زبان-استان-آذربایجان-غربی-منصوب-شد.jpg" alt="">
                   </div>
                   <div class="text-box">
-                    <h2></h2>
-                    <p></p>
-                    <span></span>
+                    <a href="#">سرپرست کانون زبان استان آذربایجان غربی منصوب شد</a>
+                    <p>دکتر غلامرضا کیانی، رییس کانون زبان ایران طی حکمی پرنا فیضی را به عنوان سرپرست...</p>
+                    <span>۰۳ اسفند ۱۴۰۰</span>
                   </div>
                 </div>
+                <hr>
                 <div class="items">
                   <div class="img-box">
-                    <img src="" alt="">
+                    <img src="./images/۵-اسفندماه-امتحان-میان-ترم-غایبان-در-گروه-نوجوان-و-بزرگسال-زبان-انگلیسی.jpeg" alt="">
                   </div>
                   <div class="text-box">
-                    <h2></h2>
-                    <p></p>
-                    <span></span>
+                    <a href="#">۵ اسفندماه، امتحان میان ترم غایبان در گروه نوجوان و بزرگسال زبان انگلیسی</a>
+                    <span>۰۲ اسفند ۱۴۰۰</span>
                   </div>
                 </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section-3 -->
+        <aside>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <img src="./images/student.png" alt="">
+                <div class="text">
+                  <p>۱،۲۰۰،۰۰۰ هزار زبان آموز</p>
+                  <p>مفتخر به بیان آن هستیم</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <img src="./images/lang.png" alt="">
+                <div class="text">
+                  <p>آموزش ۹ زبان زنده دنیا</p>
+                  <p>مفتخر به بیان آن هستیم</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <img src="./images/map.png" alt="">
+                <div class="text">
+                  <p>حضور در ۳۱ استان </p>
+                  <p>مفتخر به بیان آن هستیم</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <section class="about">
+          <div class="container">
+            <ul class="about-boxes owl-carousel owl-theme">
+             <li class="item">
+               <a href="#">
+                 <img src="./images/دوره-تربیت-حرفه-ای-مدرس-TTC.jpg" alt="">
+                 <div class="slider-title">
+                   <span>دوره تربیت حرفه‌ای مدرس (TTC)</span>
+                 </div>
+              </a>
+              </li>
+             <li class="item">
+              <a href="#">
+                <img src="./images/دوره-مکالمه-ویژه.jpg" alt="">
+                <div class="slider-title">
+                  <span>دوره مکالمه ویژه</span>
+                </div>
+             </a>
+             </li>
+             <li class="item">
+              <a href="#">
+                <img src="./images/سامانه-ایلیا-کانون-زبان-ایران-به-زودی.jpg" alt="">
+                <div class="slider-title">
+                  <span>سامانه ایلیا - کانون زبان ایران </span>
+                </div>
+             </a>
+             </li>
+             <li class="item">
+              <a href="#">
+                <img src="./images/آموزش-زبان-با-اهداف-ویژه.jpg" alt="">
+                <div class="slider-title">
+                  <span>آموزش زبان با اهداف ویژه</span>
+                </div>
+             </a>
+             </li>
+            </ul>
+          </div>
+        </section>
+        <!-- section-4 -->
+        <section class="contact">
+          <div class="container">
+            <div class="row">
+              <div class="box col-lg-4 col-md-6 col-sm-12">
+                <img src="./images/ارسال-مشکلات.png" alt=""><a href="#">ارسال مشکلات</a>
+                <p>مشکلات خود را با پر کردن فرم مربوطه برای ما ارسال کنید</p>
+              </div>
+              <div class="box col-lg-4 col-md-6 col-sm-12">
+                <img src="./images/گالری.png" alt=""><a href="#">گالری</a>
+                <p>گالری تصاویر، ویدیو و فایل های صوتی نشریات کمک آموزشی</p>
+              </div>
+              <div class="box col-lg-4 col-md-6 col-sm-12">
+                <img src="./images/وبلاگ-ها.png" alt=""><a href="#">وبلاگ ها</a>
+                <p>وبلاگ های تمام مراکز آموزشی در استان های کشور را مشاهده کنید</p>
+              </div>
+              <div class="box col-lg-4 col-md-6 col-sm-12">
+                <img src="./images/اطلاعات-مراکز (1).png" alt=""><a href="#">اطلاعات مراکز</a>
+                <p>نمایش اطلاعات مرکز آموزشی مورد نظر شما</p>
+              </div>
+              <div class="box col-lg-4 col-md-6 col-sm-12">
+                <img src="./images/پیوندها.png" alt=""><a href="#">پیوندها</a>
+                <p>لینک وبسایت ها مرتبط</p>
+              </div>
+              <div class="box col-lg-4 col-md-6 col-sm-12">
+                <img src="./images/شبکه-های-اجتماعی.png" alt=""><a href="#">شبکه های اجتماعی</a>
+                <p>شبکه های اجتماعی کانون زبان ایران</p>
               </div>
             </div>
           </div>
@@ -175,51 +278,53 @@
     <footer>
     <div class="container">
         <div class="parent">
-            <div class="child">
-                <div class="title"><span>درباره ما ______</span></div>
-                <div class="inner">
-                    <span>کانون زبان ایران به عنوان معتبرترین، قدیمی‌ترین و بزرگترین مؤسسه‌ آموزش زبان‌های خارجی در ایران از سال 1304 تحت عنوان انجمن ایران و آمریکا در تهران شروع به فعالیت کرده است.<a href="#" class="text-secondary">ادامه...</a></span>
+            <div class="row">
+                <div class="child col-lg-3 col-md-6 col-sm-12">
+                    <div class="title"><span>درباره ما ______</span></div>
+                    <div class="inner">
+                        <span>کانون زبان ایران به عنوان معتبرترین، قدیمی‌ترین و بزرگترین مؤسسه‌ آموزش زبان‌های خارجی در ایران از سال 1304 تحت عنوان انجمن ایران و آمریکا در تهران شروع به فعالیت کرده است.<a href="#" class="text-secondary">ادامه...</a></span>
+                    </div>
                 </div>
-            </div>
-            <div class="child">
-                <div class="title"><span>تماس با ما ______</span></div>
-                <div class="inner">
-                    <ul>
-                        <li><span style="width: 45px;"><i class="fa-solid fa-location-dot"></i></span>
-                            <p>
-                                نشانی: تهران- خیابان استاد مطهری - خیابان فجر - شماره 33</p></li>
-                        <li><span><i class="fa-solid fa-phone"></i></span><p>
-                            تلفن : ۴-۸۸۳۰۸۰۳۲-۰۲۱</p></li>
-                        <li><span><i class="fa-solid fa-fax"></i></span>
-                            <p>
-                                فکس :۸۸۸۴۴۴۸۶-۰۲۱</p></li>
-                        <li><span><i class="fa-solid fa-inbox"></i></span><p>
-                            صندوق پستی: 6368-14155</p></li>
-                        <li><span><i class="fa-solid fa-address-card"></i></span><p>
-                            کد پستی: 1589793413</p></li>
-                    </ul>
+                <div class="child col-lg-3 col-md-6 col-sm-12">
+                    <div class="title"><span>تماس با ما ______</span></div>
+                    <div class="inner">
+                        <ul>
+                            <li><span style="width: 45px;"><i class="fa-solid fa-location-dot"></i></span>
+                                <p>
+                                    نشانی: تهران- خیابان استاد مطهری - خیابان فجر - شماره 33</p></li>
+                            <li><span><i class="fa-solid fa-phone"></i></span><p>
+                                تلفن : ۴-۸۸۳۰۸۰۳۲-۰۲۱</p></li>
+                            <li><span><i class="fa-solid fa-fax"></i></span>
+                                <p>
+                                    فکس :۸۸۸۴۴۴۸۶-۰۲۱</p></li>
+                            <li><span><i class="fa-solid fa-inbox"></i></span><p>
+                                صندوق پستی: 6368-14155</p></li>
+                            <li><span><i class="fa-solid fa-address-card"></i></span><p>
+                                کد پستی: 1589793413</p></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="child">
-                <div class="title"><span>راهنما ______</span></div>
-                <div class="inner">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>نقشه سایت</a></li>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>دفترچه های راهنمای زبان آموزان</a></li>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>مقررات انضباطی-آموزشی</a></li>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>پرسش های متداول</a></li>
-                    </ul>
+                <div class="child col-lg-3 col-md-6 col-sm-none">
+                    <div class="title"><span>راهنما ______</span></div>
+                    <div class="inner">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>نقشه سایت</a></li>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>دفترچه های راهنمای زبان آموزان</a></li>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>مقررات انضباطی-آموزشی</a></li>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>پرسش های متداول</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="child">
-                <div class="title"><span>کارمندان و مدرسان ______</span></div>
-                <div class="inner">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>سامانه متمرکز</a></li>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>سامانه مدیران استان</a></li>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>فیش حقوقی کارکنان</a></li>
-                        <li><a href="#"><i class="fa fa-angle-left"></i>سامانه کارشناسان و مدرسان</a></li>
-                    </ul>
+                <div class="child col-lg-3 col-md-6 col-sm-none">
+                    <div class="title"><span>کارمندان و مدرسان ______</span></div>
+                    <div class="inner">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>سامانه متمرکز</a></li>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>سامانه مدیران استان</a></li>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>فیش حقوقی کارکنان</a></li>
+                            <li><a href="#"><i class="fa fa-angle-left"></i>سامانه کارشناسان و مدرسان</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,12 +334,39 @@
     <div class="container">
         <div class="boxes">
             <div class="box">کلیه حقوق این وب سایت متعلق به کانون زبان ایران می باشد.</div>
-            <div class="box"><a href="#">طراحی سایت: رادکام</a></div>
+            <div class="box"><a href="#">طراحی سایت: رادکام</a></div>           
         </div>
     </div>
 </div>
 
     <!-- <script src="js/vendor.js"></script> -->
+
+<script src="../vendor/OwlCarousel/docs/assets/vendors/jquery.min.js"></script>
+<script src="../vendor/OwlCarousel/dist/owl.carousel.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    rtl: true,
+    loop:true,
+    nav: true,
+    mouseDrag: false,
+    responsiveClass:true,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        770:{
+            items:2
+        },
+        1100:{
+            items:3
+        },
+        1200:{
+            items:4
+        }
+    }
+})
+</script>
 
 </body>
 </html>

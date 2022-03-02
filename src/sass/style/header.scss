@@ -8,7 +8,7 @@ header{
     .ili-img {
         position: absolute;
         top: 10px;
-        left: 8vw;
+        left: 3vw;
     }
     div i{
         color: #149146;
@@ -27,7 +27,7 @@ header{
         justify-content: center;
         align-items: center;
         div{
-            padding-right: 30px;
+            padding-right: 10px;
             input{
                 margin-right:20px;
             }
@@ -81,12 +81,15 @@ header{
         }
     }
     nav{
+        .icon-nav-menu{
+            display: none;
+        }
         > ul{
-            justify-content: center;
             align-items: center;
+            margin-right: 120px;
             > li{
-                margin: 15px;
-                padding: 3px;
+                margin-left: 25px;
+                padding-left: 15px;
             }
             #sign{
                 position: relative;
@@ -163,4 +166,40 @@ header{
             max-width: 500px;
         }
     }
+}
+@include media-breakpoint-down(lg) { 
+    header{
+        .top-nav{
+            margin: 30px 20px;
+            div{
+                padding: 10px;
+            }
+        }
+        .archaism-img, .ili-img{
+            display: none;
+        }
+        nav ul{
+            margin-right: 50px;
+        }
+        .two-asides{
+            flex-direction: column;
+            padding: 0;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    } 
+}
+@include media-breakpoint-down(md) { 
+    header{
+        nav{
+            .icon-nav-menu{
+                display: block;
+            }
+            ul,li{
+                display: none;
+            }
+        }
+    } 
 }
